@@ -1,0 +1,3 @@
+backend/node_modules/
+frontend/my-store/node_modules/
+backend/.env

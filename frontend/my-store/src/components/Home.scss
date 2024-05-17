@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+$primary-color: #CEB5B7;
+$secondary-color: #E69597;
+$tertiary-color: #FF7477;
+
+$text-color: #2C2C2C;
+$text-color-light: #FFFFFF;
+
+body {
+    background-color: $primary-color;
+}
+
+.home {
+    .hero {
+      background-image: url('http://localhost:3000/uploads/43b59d48f765c5e1cc6fa5befeb06b29');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .container {
+        text-align: center;
+        color: white;
+      }
+      .store-name {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: $text-color-light;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+        font-family: emilys candy;
+      }
+      .description {
+        font-size: 1.5rem;
+        color: $text-color-light;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        font-family: roboto;
+      }
+    }
+  }
+  
